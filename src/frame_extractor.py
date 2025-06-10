@@ -1,0 +1,1 @@
+<your FrameExtractor class code here>
