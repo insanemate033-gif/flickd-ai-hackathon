@@ -16,24 +16,15 @@ This repository contains the backend ML pipeline for Flickd's "Smart Tagging & V
 ## Directory Structure
 
 submission/
-├── videos/
-# Sample short MP4 videos (5–15s each)
-├── catalog.csv
-# Product catalog (200 items, do not modify)
-├── vibes_list.json
-# Predefined list of fashion vibes
-├── outputs/
-# Output JSONs per video (see format below)
-├── models/
-# Model weights/configs (see below)
-├── src/
-# Modular code (frame extractor, detector, matcher, classifier, pipeline)
-├── requirements.txt
-# Python dependencies
-├── README.md
-# This file
-└── demo.mp4
-# Loom/screen recording (max 5 min) or Loom link
+├── videos/# Sample short MP4 videos (5–15s each)
+├── catalog.csv# Product catalog (200 items, do not modify)
+├── vibes_list.json# Predefined list of fashion vibes
+├── outputs/# Output JSONs per video (see format below)
+├── models/Model weights/configs (see below)
+├── src/# Modular code (frame extractor, detector, matcher, classifier, pipeline)
+├── requirements.txt# Python dependencies
+├── README.md# This file
+└── demo.mp4# Loom/screen recording (max 5 min) or Loom link
 
 
 
